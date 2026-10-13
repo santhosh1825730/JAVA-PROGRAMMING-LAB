@@ -1,3 +1,28 @@
+exp no:10(A)
+date:15-09-26
+                        SIMPLE THREAD
+Aim
+To write a Java program to create multiple threads using the Thread class and demonstrate the use of yield() and sleep() methods.
+
+Algorithm
+Start the program.
+
+Create three thread classes, A, B, and C, by extending the Thread class.
+
+In thread A, print numbers from 1 to 5 and use Thread.yield() when i == 1.
+
+In thread B, print numbers from 1 to 5 and terminate the loop when j == 3 using break.
+
+In thread C, print numbers from 1 to 5 and pause the thread for 1500 milliseconds when k == 1 using Thread.sleep().
+
+In the main() method, create objects of all three thread classes.
+
+Start the threads using the start() method.
+
+Print the main thread's exit message.
+
+Stop the program.
+SOURCE CODE:
 class A extends Thread {
     public void run() {
         for (int i = 1; i <= 5; i++) {
@@ -100,3 +125,24 @@ System.out.println("start thread B"); threadB.start(); System.out.println("start
 System.out.println("end of main thread");
 }
 }
+OUTPUT:
+Start thread A
+exit from main thread
+from thread B j=1
+from thread B j=2
+from thread B j=3
+exit from B
+from thread A i=1
+from thread A i=2
+from thread A i=3
+from thread A i=4
+from thread A i=5
+exit from A
+thread C = 1
+thread C = 2
+thread C = 3
+thread C = 4
+thread C = 5
+Result
+Thus, the Java program was executed successfully to demonstrate multithreading using the yield() and sleep() methods.
+
