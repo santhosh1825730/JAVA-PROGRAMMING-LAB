@@ -1,3 +1,22 @@
+EXP N0:1(C)
+DATE:28-07-26
+                 FINDING  LARGEST OF THREE NUMBER
+Aim
+To write a Java program to find the largest of three numbers using if-else statements.
+Algorithm
+1. Start the program.
+2. Import the Scanner class.
+3. Declare three integer variables x, y, and z.
+4. Read three numbers from the user.
+5. Check whether x is greater than y and z.
+6. If true, print “First number is largest.”
+7. Otherwise, check whether y is greater than x and z.
+8. If true, print “Second number is largest.”
+9. Otherwise, check whether z is greater than x and y.
+10. If true, print “Third number is largest.”
+11. Otherwise, print “The numbers are not distinct or equal.”
+12. Stop the program.
+SOURCE CODE:
 import java.util.Scanner;
 
 class LargestOfThreeNumbers {
@@ -25,3 +44,11 @@ class LargestOfThreeNumbers {
         }
     }
 }
+OUTPUT:
+Enter three integers:
+10
+25
+15
+Second number is largest
+Result
+Thus, the Java program to find the largest of three numbers using if-else statements was executed successfully.
