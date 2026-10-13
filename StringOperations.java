@@ -1,3 +1,25 @@
+EXP NO: 3
+DATE:11-08-26
+                   STRING OPERATION
+Aim
+To write a Java program to demonstrate various String operations using built-in String methods.
+Algorithm
+1. Start the program.
+2. Create a string variable str and initialize it with "Hello Java".
+3. Find the length of the string using length().
+4. Display the character at a specified index using charAt().
+5. Convert the string to uppercase using toUpperCase().
+6. Convert the string to lowercase using toLowerCase().
+7. Extract a substring using substring().
+8. Join two strings using concat().
+9. Check whether the string contains a word using contains().
+10. Find the index of a character using indexOf() and lastIndexOf().
+11. Replace a word using replace().
+12. Check the beginning and ending of the string using startsWith() and endsWith().
+13. Compare two strings using equals().
+14. Remove extra spaces at the beginning and end using trim().
+15. Stop the program.
+SOURCE CODE:
 public class StringOperations {
     public static void main(String[] args) {
 
@@ -20,3 +42,20 @@ public class StringOperations {
         System.out.println("14. Trim: " + str3.trim());
     }
 }
+OUTPUT:
+1. Length: 10
+2. Character at index 1: e
+3. Uppercase: HELLO JAVA
+4. Lowercase: hello java
+5. Substring: Java
+6. Concatenation: Hello Java Programming
+7. Contains 'Java': true
+8. Index of 'J': 6
+9. Last index of 'a': 9
+10. Replace: Hello World
+11. Starts with 'Hello': true
+12. Ends with 'Java': true
+13. Equals: true
+14. Trim: Hello Java
+Result
+Thus, the Java program to demonstrate various String operations using built-in String methods was executed successfully.
