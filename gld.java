@@ -1,3 +1,21 @@
+date:13-10-26
+  exp no:14
+             Title: GridLayout using Java Applet
+  Aim:
+
+To write a Java program to demonstrate the GridLayout manager in an Applet by arranging 10 buttons in 5 rows and 2 columns.
+
+Algorithm:
+1. Start the program.
+2. Import the required packages such as AWT, IO and Applet.
+3. Create a class named gld that extends the Applet class.
+4. Define the init() method.
+5. Set the layout using GridLayout(5,2).
+6. Create 10 buttons with names A, B, C, D, E, F, G, H, I and J.
+7. Add all 10 buttons to the Applet.
+8. Define the getInsets() method to provide a 20-pixel margin on all sides.
+9. Stop the program.
+  source code:
 import java.awt.*;
 import java.io.*;
 import java.applet.Applet.*;
@@ -35,3 +53,6 @@ public Insets getInsets()
 {
 return new Insets(20,20,20,20);
 }}
+Result:
+
+Thus, the Java Applet program to demonstrate the GridLayout manager was successfully executed, and 10 buttons were arranged in 5 rows and 2 columns.
